@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="registerUser" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/registerUser.jsp" />
+	</definition>
+	<definition name="loginUser" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/loginUser.jsp" />
+	</definition>
+	<definition name="displayUser" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/displayUser.jsp" />
+	</definition>
+	<definition name="displayUsers" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/displayUsers.jsp" />
+	</definition>
+	<definition name="home" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/home.jsp" />
+	</definition>
+	<definition name="adminHome" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/adminHome.jsp" />
+	</definition>
+	<definition name="landing" extends="LandingTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/landing.jsp" />
+	</definition>
+	<definition name="productResult" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/productResult.jsp" />
+	</definition>
+	<definition name="updateShoe" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/updateShoe.jsp" />
+	</definition>
+	<definition name="duplicateUsers" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/duplicateUsers.jsp" />
+	</definition>
+	
+	<definition name="errorPage" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/errorPage.jsp" />
+	</definition>
+	<definition name="adminProductResult" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/adminProductResult.jsp" />
+	</definition>
+	<definition name="guestProductResult" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/guestProductResult.jsp" />
+	</definition>
+	<definition name="contactUs" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/contactUs.jsp" />
+	</definition>
+</tiles-definitions>
